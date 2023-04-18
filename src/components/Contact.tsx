@@ -53,7 +53,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              // eslint-disable
+              
               <a className="text-indigo-400 leading-relaxed">
                 samet.krt@gmail.com
               </a>
