@@ -44,7 +44,7 @@ export default function About() {
             className="object-cover object-center rounded"
             alt="hero"
             src={images}
-            style={{ width: "80%" }}
+            
           />
         </div>
       </div>
