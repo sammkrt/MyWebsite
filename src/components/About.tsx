@@ -33,13 +33,17 @@ export default function About() {
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 hover:text-white rounded text-lg"
             >
               See My Past Work
             </a>
-
-            <a className="ml-4 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 hover:text-white rounded text-lg"
-              href="/resume/Samet_Kurt_Cv.pdf" download >Download CV</a>
+            <a
+              className="ml-4 inline-flex text-white bg-sky-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 hover:text-white rounded text-lg"
+              href="/resume/Samet_Kurt_Cv.pdf"
+              download
+            >
+              Download CV
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -47,7 +51,6 @@ export default function About() {
             className="object-cover object-center rounded"
             alt="hero"
             src={images}
-            
           />
         </div>
       </div>
