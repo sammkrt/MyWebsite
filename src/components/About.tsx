@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../images/codeImage.jpg";
+import * as Icons from "heroicons-react";
 
 export default function About() {
   return (
@@ -23,28 +24,33 @@ export default function About() {
             apply my diverse skill set as a dedicated developer and contribute
             to the growth of any organization.
           </p>
-
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-            >
-              Work With Me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 hover:text-white rounded text-lg"
-            >
-              See My Past Work
-            </a>
-            <a
-              className="ml-4 inline-flex text-white bg-sky-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 hover:text-white rounded text-lg"
-              href="/resume/Samet_Kurt_Cv.pdf"
-              download
-            >
-              Download CV
-            </a>
-          </div>
+          <div className="flex flex-wrap justify-center">
+  <a
+    href="#contact"
+    className="flex-shrink-0 text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+    style={{ minWidth: "120px" }}
+  >
+    Work With Me
+  </a>
+  <a
+    href="#projects"
+    className="flex-shrink-0 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+    style={{ minWidth: "120px" }}
+  >
+    See My Past Work
+  </a>
+  <a
+    className="flex-shrink-0 text-white bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+    href="/resume/Samet_Kurt_Cv.pdf"
+    download
+    style={{ minWidth: "120px" }}
+  >
+    <span className="flex justify-center items-center">
+      <Icons.ArrowCircleDownOutline className="mr-1" />
+      Download CV
+    </span>
+  </a>
+</div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
