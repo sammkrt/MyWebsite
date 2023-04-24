@@ -37,6 +37,9 @@ export default function About() {
             >
               See My Past Work
             </a>
+
+            <a className="ml-4 inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 hover:text-white rounded text-lg"
+              href="/resume/Samet_Kurt_Cv.pdf" download >Download CV</a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

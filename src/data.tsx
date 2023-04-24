@@ -39,9 +39,10 @@ export const testimonials = [
 export const skills = [
   "TypeScript",
   "React",
-  ".Net",
+  ".Net Core",
   "C#",
   "Azure",
-  "Material UI",
+  "HTML",
+  "CSS",
   "Bootstrap"
 ];
