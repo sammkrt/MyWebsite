@@ -18,6 +18,7 @@ function App() {
       <Skills />
       <Testimonials />
       <Contact />
+      {/* <Footer /> */}
     </main>
   );
 }
