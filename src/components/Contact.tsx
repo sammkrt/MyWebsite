@@ -94,7 +94,9 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-
+              <p className="mt-1">
+                  samet.krt@gmail.com
+              </p>
               <a className="text-indigo-400 leading-relaxed"></a>
             </div>
           </div>
